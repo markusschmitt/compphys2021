@@ -1,2 +1,2 @@
-# compphys2021
-Vorlesung Computerphysik (SoSe21) an der Universität zu Köln
+# Vorlesung Computerphysik 2021
+Repository zur Vorlesung Computerphysik (SoSe21) an der Universität zu Köln
