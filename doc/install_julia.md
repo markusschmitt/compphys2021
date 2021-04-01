@@ -10,11 +10,7 @@
 
 4. Drücke die Taste `]` um in den Julia Paketmanager zu gelangen. Die Eingabeaufforderung sollte nun ihre Farbe zu Blau gewechselt haben und `(@v1.6) pkg>` lauten.
 
-5. Gib num
-```
-add IJulia
-```
-ein. Damit wird das Paket `IJulia` installiert. Das kann einen kurzen Moment dauern.
+5. Gib nun `add IJulia` ein. Damit wird das Paket `IJulia` installiert. Das kann einen kurzen Moment dauern.
 
 6. Drücke die `backspace` Taste um den Paketmanager zu verlassen. Der Text der Eingabeaufforderung `julia>` sollte nun wieder grün sein.
 
