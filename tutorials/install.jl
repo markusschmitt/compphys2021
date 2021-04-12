@@ -4,6 +4,11 @@ get_global_env() = string("v", VERSION.major, ".", VERSION.minor)
 get_global_env_folder() = joinpath(DEPOT_PATH[1], "environments", get_global_env())
 get_active_env() = Base.active_project() |> dirname |> basename
 
+# Check version
+if get_global_env() != "v1.6"
+    @info "Warning: This script is intended to be used with Julia v1.6. You are using " * get_global_env() * "."
+end
+
 # activate global environment (if not already active)
 function activate_global_env()
     if get_active_env() != get_global_env()
